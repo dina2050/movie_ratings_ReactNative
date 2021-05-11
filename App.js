@@ -13,10 +13,7 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
     },
 
-    filmsStyle: {
-        display:'flex',
-        flexDirection: Platform.OS === 'web' ? "row" : "column"
-    },
+
     input: {
         height: 30,
         width:200,

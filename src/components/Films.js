@@ -26,7 +26,7 @@ export class Films extends React.Component {
 
                 <View style={styles.container}>
                     <Text style={styles.mainTitleStyle}>Movies</Text>
-                    <FlatList style={styles.filmsStyle}
+                    <FlatList
                         renderItem={(obj) => <Film key={obj.item.key} {...obj.item} />}
                         data = {films}
                     />
